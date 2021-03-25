@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="into.css">
+    <center><h1><p class="text-primary mt-5">Add item</p></center></h1><br>
+    <center><h2><form method="post" action="main.html">
+        <input type="submit" value="Back to Menu"><br><br>
+    </form><h2></center><h2>
+        <style>
+            body{
+                background-image: url("https://us-fbcloud.net/picpost/data/282/282060-5532066484fd5.jpg");
+                background-size: cover;
+            }
+        </style>
+    
+       <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<form action="insert.php" method="POST" enctype="multipart/form-data">
+
+    <center><div>ชื่อเมล็ดกาแฟ</div><br>
+    <input type="text" name="coffeename" required><br><br>
+    <div>รายละเอียด</div><br>
+    <input type="text" name="detail" required><br><br>
+    <div>รูปภาพ</div><br>
+    <input type="file" name="image" required><br><br>
+    <button type="submit" name="upload">Insert</button></center>
+</body>
